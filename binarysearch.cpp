@@ -49,9 +49,9 @@ void bubbleSortArray()
 }
 
 void display() {
-    cout << "\n======================================\n";
-    cout << "  Elemen Array Setelah Diurutkan (Asc)  \n";
-    cout << "=======================================\n";
+    cout << "\n========================================\n";
+    cout << "   Elemen Array Setelah Diurutkan (Asc)  \n";
+    cout << "==========================================\n";
     for (int j = 0; j < nPanjang; j++)
     {
         cout << element[j];
@@ -97,7 +97,7 @@ void binarySearch(){
         {
             cout << "\n[✗] Elemen " << x << " Tidak ditemukan dalam array.\n";
         }
-        cout << "\nIngin mencari lagi? (y/n)";
+        cout << "\nIngin mencari lagi? (y/n) ";
         cin >> ulang;
     } while (ulang == 'y' || ulang == 'Y');
     
